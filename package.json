@@ -1,0 +1,15 @@
+{
+  "name": "example-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "release": "nx release --skip-publish",
+    "release:dry-run": "pnpm release --dry-run"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0",
+    "@nx/js": "^22.4.4",
+    "nx": "^21.0.0"
+  }
+}

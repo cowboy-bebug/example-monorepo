@@ -1,0 +1,14 @@
+{
+  "name": "@example/serve-1",
+  "version": "0.0.1",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "build": "echo 'Building serve-1...'",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@example/pack-1": "workspace:*",
+    "@example/pack-2": "workspace:*"
+  }
+}

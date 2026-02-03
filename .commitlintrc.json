@@ -1,0 +1,7 @@
+{
+  "extends": ["@commitlint/config-conventional"],
+  "rules": {
+    "header-max-length": [1, "always", 72],
+    "scope-enum": [2, "always", ["release", "pack-1", "pack-2", "serve-1", "serve-2"]]
+  }
+}
